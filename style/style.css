@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	color: white;
+}
+#particles-js {
+	height: 100%;
+	background-image: url('https://data.whicdn.com/images/75349665/original.png');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.particles-js-canvas-el {
+	position: absolute;
+}
+.text {
+	justify-content:left;
+	margin: 30px;
+	font-size: 30px;
+	color: black;
+	width: 50%;
+	margin-left: -20px;
+}
+nav {
+	justify-content: center;
+	width: 100%;
+	background:lightpink;
+	position:absolute ;
+	top: 0;
+	height: 70px;
+}
+nav > h1 {
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-bottom: 10px;
+	font-size: 30px;
+}
+form > h1 {
+	color: black;
+}
+form {
+	text-align: center;
+}
+footer {
+	width: 100%;
+	background:lightpink;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+footer > h3 {
+	color: black;
+	margin: 0px;
+}
